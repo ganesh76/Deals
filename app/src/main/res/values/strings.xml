@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Deals</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="nonet_confirm">Oops! No Internet!</string>
+    <string name="please_check_internet">Please check your Internet connection</string>
+    <string name="nonet_set">GO TO SETTINGS</string>
+    <string name="nonet_try">TRY AGAIN</string>
+    <string name="facebook_app_id">1404566662930963</string>
+    <string name="fb_login_protocol_scheme">fb1404566662930963</string>
+    <string name="no_data_found">No Data Found</string>
+</resources>

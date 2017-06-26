@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_beat_plan"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+<android.support.v7.widget.RecyclerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recyclerView"
+    android:visibility="visible"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_gravity="center|top"
+android:gravity="center"
+android:layout_margin="@dimen/_10sdp"
+android:orientation="vertical"
+android:id="@+id/no_data_ll"
+android:visibility="gone"
+android:layout_height="match_parent">
+<ImageView
+    android:id="@+id/chart_line_no_data_img2"
+    android:layout_width="100dp"
+    android:layout_gravity="center"
+    android:src="@drawable/nodatafound"
+    android:layout_height="100dp"
+    android:visibility="visible" />
+<TextView
+    android:id="@+id/chart_line_no_data_text2"
+    android:layout_width="wrap_content"
+    android:text="@string/no_data_found"
+    android:layout_gravity="center"
+    android:textColor="@color/titleText"
+    android:layout_margin="@dimen/_10sdp"
+    android:textSize="13sp"
+    android:layout_marginBottom="20dp"
+    android:layout_height="wrap_content"
+    android:visibility="visible" />
+</LinearLayout>
+    </LinearLayout>
